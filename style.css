@@ -2,40 +2,53 @@
     margin: 0;
     padding: 0;
     /* border: 1px solid rgba(128, 128, 128, 0.65); */
+    box-sizing: border-box;
 }
 
-.begin{
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    box-shadow: 0 0 1px 0.3px rgba(27, 26, 26, 0.586);
+    width: 100%;
+    /* scroll-margin-top: 70px; */
+}
+
+.begin {
+    background: linear-gradient(rgb(163, 140, 78), rgba(47, 37, 10, 0.85));
+    background-attachment: fixed;
 
 }
 
-.whatt{
-background-color: rgba(128, 128, 128, 0.295);
-display: flex;
-width: 446px;
+.whatt {
+    background-color: rgba(128, 128, 128, 0.295);
+    display: flex;
+    width: 446px;
 
 
 
 
 }
-.what{
+
+.what {
     font-size: larger;
-    color:  chocolate;
+    color: chocolate;
     font-family: serif;
-    font-weight:1000;
+    font-weight: 1000;
 }
 
-.whatt ul li{
+.whatt ul li {
     list-style: none;
     font-size: 23px;
-    width:450px ;
+    width: 450px;
     background-color: bisque;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: chocolate;
     margin-bottom: 30px;
     padding: 30px;
 }
 
-.right{
+.right {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -45,7 +58,7 @@ width: 446px;
 }
 
 
-.left{
+.left {
     position: fixed;
     bottom: 0;
     border: solid black 1px;
@@ -54,7 +67,67 @@ width: 446px;
     width: 43px;
     ;
 }
+.social a{
+color: black;
+}
+.social a :hover {
+    color: goldenrod;
+    }
 
-.svg{
-    color: aliceblue;
+    .email a{
+        color: black;
+        }
+        .email :hover {
+            color: goldenrod;
+            }
+.svg {
+    /* color: goldenrod; */
+}
+
+.div2 {
+    /* border: solid 1px black; */
+    justify-content: center;
+}
+
+.div2 div {
+    margin-bottom: 20px;
+    /* border: black 1px solid; */
+    /* margin: auto; */
+}
+
+.div2 :first-child{
+    color: goldenrod;
+}
+
+.div2 :nth-child(2) {
+    color: rgb(249, 239, 209);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-shadow: 0 0 3px rgb(226, 226, 226);
+
+}
+
+.div2 :nth-child(3) {
+    color: rgba(249, 239, 190, 0.931);
+    /* border: thin solid black; */
+    width: 60%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.div2 :last-child :first-child {
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    /* background-color: red; */
+}
+.div2 :last-child  :hover{
+    background-color: rgba(218, 165, 32, 0.3) !important; 
+    /* box-shadow: ; */
+   
 }
