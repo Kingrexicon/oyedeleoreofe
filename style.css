@@ -3,6 +3,7 @@
     padding: 0;
     /* border: 1px solid rgba(128, 128, 128, 0.65); */
     box-sizing: border-box;
+    
 }
 
 nav {
@@ -17,36 +18,31 @@ nav {
 .begin {
     background: linear-gradient(rgb(163, 140, 78), rgba(47, 37, 10, 0.85));
     background-attachment: fixed;
+    color: rgba(249, 239, 190, 0.931); 
 
 }
 
 .whatt {
-    background-color: rgba(128, 128, 128, 0.295);
+    /* background-color: rgba(128, 128, 128, 0.295); */
     display: flex;
-    width: 446px;
-
-
-
-
+    justify-content: center;
+    align-items: center;
+    /* width: 446px; */
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.boxed{
+background-color: rgb(163, 140, 78);
 }
 
-.what {
-    font-size: larger;
-    color: chocolate;
-    font-family: serif;
-    font-weight: 1000;
-}
-
-.whatt ul li {
-    list-style: none;
-    font-size: 23px;
-    width: 450px;
-    background-color: bisque;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: chocolate;
-    margin-bottom: 30px;
-    padding: 30px;
-}
+ ul li  {
+    /* border:solid 1px red; */
+    /* list-style: none; */
+    font-size: 14px;
+    font-family:sans-serif;
+    color: rgba(249, 239, 190, 0.931);
+ }
 
 .right {
     position: fixed;
@@ -54,28 +50,36 @@ nav {
     bottom: 0;
     width: 50px;
     height: 400px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
+}
+
+.img img{
+filter: sepia(100) blur(1px);
+}
+
+.img :hover{
+  filter: none;
 }
 
 
 .left {
     position: fixed;
     bottom: 0;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     display: flex;
     height: 300px;
     width: 43px;
     ;
 }
 .social a{
-color: black;
+color: rgb(249, 239, 209);
 }
 .social a :hover {
     color: goldenrod;
     }
 
     .email a{
-        color: black;
+        color: rgb(249, 239, 209);;
         }
         .email :hover {
             color: goldenrod;
@@ -95,11 +99,11 @@ color: black;
     /* margin: auto; */
 }
 
-.div2 :first-child{
+ .one  {
     color: goldenrod;
 }
 
-.div2 :nth-child(2) {
+.two {
     color: rgb(249, 239, 209);
     font-size: 40px;
     font-weight: 600;
@@ -108,6 +112,14 @@ color: black;
 
 }
 
+.too {
+    color: rgb(249, 239, 209);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-shadow: 0 0 3px rgb(226, 226, 226);
+
+}
 .div2 :nth-child(3) {
     color: rgba(249, 239, 190, 0.931);
     /* border: thin solid black; */
@@ -120,14 +132,20 @@ color: black;
 
 }
 
-.div2 :last-child :first-child {
+.div2 :nth-child(4) .btn {
     color: goldenrod;
     border: 1px solid goldenrod;
     border-radius: 5px;
     /* background-color: red; */
 }
-.div2 :last-child  :hover{
+.div2 :nth-child(4) :hover{
     background-color: rgba(218, 165, 32, 0.3) !important; 
     /* box-shadow: ; */
    
+}
+.link{
+    width: 100px;
+    height: 60px;
+
+
 }
