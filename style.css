@@ -54,7 +54,7 @@ background-color: rgb(163, 140, 78);
 }
 
 .img img{
-filter: sepia(100) blur(1px);
+filter:sepia(50) blur(1px);
 }
 
 .img :hover{
@@ -146,6 +146,17 @@ color: rgb(249, 239, 209);
 .link{
     width: 100px;
     height: 60px;
+}
+
+.big{
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
 
 
+}
+.small{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(163, 140, 78);
 }
