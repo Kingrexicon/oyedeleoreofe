@@ -3,7 +3,7 @@
     padding: 0;
     /* border: 1px solid rgba(128, 128, 128, 0.65); */
     box-sizing: border-box;
-    
+
 }
 
 nav {
@@ -12,13 +12,27 @@ nav {
     z-index: 3;
     box-shadow: 0 0 1px 0.3px rgba(27, 26, 26, 0.586);
     width: 100%;
+    transition: top 0.3s;
     /* scroll-margin-top: 70px; */
 }
+
+.navbar {
+    height: 10%;
+    background-color: rgb(163, 140, 78);
+
+    border-bottom: thin ridge rgba(255, 255, 255, 0.487);
+}
+
+.cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 
 .begin {
     background: linear-gradient(rgb(163, 140, 78), rgba(47, 37, 10, 0.85));
     background-attachment: fixed;
-    color: rgba(249, 239, 190, 0.931); 
+    color: rgba(249, 239, 190, 0.931);
 
 }
 
@@ -32,17 +46,19 @@ nav {
     margin-top: 50px;
     margin-bottom: 40px;
 }
-.boxed{
-background-color: rgb(163, 140, 78);
+
+.boxed {
+    background-color: rgb(163, 140, 78);
+    border-radius: 3px;
 }
 
- ul li  {
+ul li {
     /* border:solid 1px red; */
     /* list-style: none; */
     font-size: 14px;
-    font-family:sans-serif;
+    font-family: sans-serif;
     color: rgba(249, 239, 190, 0.931);
- }
+}
 
 .right {
     position: fixed;
@@ -53,12 +69,19 @@ background-color: rgb(163, 140, 78);
     /* border: solid black 1px; */
 }
 
-.img img{
-filter:sepia(50) blur(1px);
+.img img {
+    filter: sepia(50) blur(1px);
+
 }
 
-.img :hover{
-  filter: none;
+.img {
+    border: solid 2px gray;
+    padding: 0;
+}
+
+.img :hover {
+    filter: none;
+    border: solid 1px transparent;
 }
 
 
@@ -71,22 +94,24 @@ filter:sepia(50) blur(1px);
     width: 43px;
     ;
 }
-.social a{
-color: rgb(249, 239, 209);
+
+.social a {
+    color: rgb(249, 239, 209);
 }
+
 .social a :hover {
     color: goldenrod;
-    }
-
-    .email a{
-        color: rgb(249, 239, 209);;
-        }
-        .email :hover {
-            color: goldenrod;
-            }
-.svg {
-    /* color: goldenrod; */
 }
+
+.email a {
+    color: rgb(249, 239, 209);
+    ;
+}
+
+.email :hover {
+    color: goldenrod;
+}
+
 
 .div2 {
     /* border: solid 1px black; */
@@ -99,7 +124,7 @@ color: rgb(249, 239, 209);
     /* margin: auto; */
 }
 
- .one  {
+.one {
     color: goldenrod;
 }
 
@@ -120,6 +145,7 @@ color: rgb(249, 239, 209);
     text-shadow: 0 0 3px rgb(226, 226, 226);
 
 }
+
 .div2 :nth-child(3) {
     color: rgba(249, 239, 190, 0.931);
     /* border: thin solid black; */
@@ -138,25 +164,45 @@ color: rgb(249, 239, 209);
     border-radius: 5px;
     /* background-color: red; */
 }
-.div2 :nth-child(4) :hover{
-    background-color: rgba(218, 165, 32, 0.3) !important; 
+
+.div2 :nth-child(4) :hover {
+    background-color: rgba(218, 165, 32, 0.3) !important;
     /* box-shadow: ; */
-   
+
 }
-.link{
+
+.navbtn {
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+
+.navbtn:hover {
+    background-color: rgba(218, 165, 32, 0.3) !important;
+    color: goldenrod;
+
+}
+
+.link {
     width: 100px;
     height: 60px;
 }
 
-.big{
+.big {
     min-height: 300px;
     display: flex;
     flex-direction: row;
 
 
 }
-.small{
+
+.small {
     display: flex;
     flex-direction: column;
     background-color: rgb(163, 140, 78);
+}
+
+.small:hover {
+    transform: translateY(-20px);
+    transition: 1s;
 }
