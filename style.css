@@ -1,8 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid rgba(128, 128, 128, 0.65); */
+    /* border: 1px solid rgba(9, 9, 9, 0.65); */
     box-sizing: border-box;
+
+}
+
+li{
+list-style: none;
 
 }
 
@@ -103,6 +108,13 @@ ul li {
     color: goldenrod;
 }
 
+.social .btn{
+
+}
+
+.social .btn:hover{
+    color:goldenrod
+}
 .email a {
     color: rgb(249, 239, 209);
     ;
@@ -167,6 +179,20 @@ ul li {
 
 .div2 :nth-child(4) :hover {
     background-color: rgba(218, 165, 32, 0.3) !important;
+    /* box-shadow: ; */
+
+}
+.button {
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    /* background-color: red; */
+}
+
+.button:hover {
+
+    background-color: rgba(218, 165, 32, 0.3) !important;
+    color:goldenrod
     /* box-shadow: ; */
 
 }
