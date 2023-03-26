@@ -76,11 +76,12 @@ ul li {
 
 .img img {
     filter: sepia(50) blur(1px);
+    transition: 1s;
 
 }
 
 .img {
-    border: solid 2px gray;
+    /* border: solid 2px gray; */
     padding: 0;
 }
 
