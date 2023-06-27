@@ -3,12 +3,10 @@
     padding: 0;
     /* border: 1px solid rgba(9, 9, 9, 0.65); */
     box-sizing: border-box;
-
 }
 
-li{
-list-style: none;
-
+li {
+    list-style: none;
 }
 
 nav {
@@ -23,8 +21,7 @@ nav {
 
 .navbar {
     /* height: 10%; */
-    background-color: rgb(138,120,69);
-
+    background-color: rgb(69, 132, 138);
     /* border-bottom: thin ridge rgba(255, 255, 255, 0.487); */
 }
 
@@ -33,12 +30,10 @@ nav {
     padding-bottom: 100px;
 }
 
-
 .begin {
-    background: linear-gradient(rgb(163, 140, 78), rgba(47, 37, 10, 0.85));
+    background: linear-gradient(rgb(78, 163, 160), rgba(10, 28, 47, 0.85));
     background-attachment: fixed;
     color: rgba(249, 239, 190, 0.931);
-
 }
 
 .whatt {
@@ -75,9 +70,8 @@ ul li {
 }
 
 .img img {
-    filter: sepia(50) blur(1px);
+    /* filter: sepia(50) blur(1px); */
     transition: 1s;
-
 }
 
 .img {
@@ -90,7 +84,6 @@ ul li {
     border: solid 1px transparent;
 }
 
-
 .left {
     position: fixed;
     bottom: 0;
@@ -101,14 +94,13 @@ ul li {
     ;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     color: goldenrod;
     border: none;
-    
 }
+
 .navbar-toggler-icon a {
     color: aliceblue;
- 
 }
 
 .social a {
@@ -119,13 +111,12 @@ ul li {
     color: goldenrod;
 }
 
-.social .btn{
+.social .btn {}
 
+.social .btn:hover {
+    color: goldenrod
 }
 
-.social .btn:hover{
-    color:goldenrod
-}
 .email a {
     color: rgb(249, 239, 209);
     ;
@@ -134,7 +125,6 @@ ul li {
 .email :hover {
     color: goldenrod;
 }
-
 
 .div2 {
     /* border: solid 1px black; */
@@ -157,7 +147,6 @@ ul li {
     font-weight: 600;
     font-family: sans-serif;
     text-shadow: 0 0 3px rgb(226, 226, 226);
-
 }
 
 .too {
@@ -166,7 +155,6 @@ ul li {
     font-weight: 600;
     font-family: sans-serif;
     text-shadow: 0 0 3px rgb(226, 226, 226);
-
 }
 
 .div2 :nth-child(3) {
@@ -178,7 +166,6 @@ ul li {
     font-weight: 400;
     font-family: sans-serif;
     text-align: center;
-
 }
 
 .div2 :nth-child(4) .btn {
@@ -191,8 +178,8 @@ ul li {
 .div2 :nth-child(4) :hover {
     background-color: rgba(218, 165, 32, 0.3) !important;
     /* box-shadow: ; */
-
 }
+
 .button {
     color: goldenrod;
     border: 1px solid goldenrod;
@@ -201,11 +188,9 @@ ul li {
 }
 
 .button:hover {
-
     background-color: rgba(218, 165, 32, 0.3) !important;
-    color:goldenrod
+    color: goldenrod
     /* box-shadow: ; */
-
 }
 
 .navbtn {
@@ -217,7 +202,6 @@ ul li {
 .navbtn:hover {
     background-color: rgba(218, 165, 32, 0.3) !important;
     color: goldenrod;
-
 }
 
 .link {
@@ -229,14 +213,12 @@ ul li {
     min-height: 300px;
     display: flex;
     flex-direction: row;
-
-
 }
 
 .small {
     display: flex;
     flex-direction: column;
-    background-color: rgb(163, 140, 78);
+    background-color: rgb(78, 145, 163);
 }
 
 .small:hover {
@@ -244,23 +226,20 @@ ul li {
     transition: 1s;
 }
 
-
-
-@media (max-width: 768px){
-    *{
+@media (max-width: 768px) {
+    * {
         /* background-color: blue; */
     }
 }
 
-@media (max-width: 480px){
-    *{
+@media (max-width: 480px) {
+    * {
         /* background-color: gray; */
     }
-
     .left {
         position: fixed;
-       top: 600px;
-       /* background-color: aliceblue; */
+        top: 600px;
+        /* background-color: aliceblue; */
         /* border: solid black 1px; */
         background-color: transparent;
         display: flex;
@@ -270,23 +249,20 @@ ul li {
         justify-content: space-evenly;
         z-index: 22;
     }
-    .left .social{
+    .left .social {
         width: 30px;
         background-color: transparent;
     }
-
     .div2 div {
         margin-bottom: 0;
     }
-    svg{
+    svg {
         bac
     }
-
     .right {
-      
         display: none;
     }
-    .line{
-        display:none
+    .line {
+        display: none
     }
 }
