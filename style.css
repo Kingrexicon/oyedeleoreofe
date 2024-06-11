@@ -257,7 +257,7 @@ color: goldenrod;
 
 @media (max-width: 480px) {
   * {
-    background-color: gray;
+    /* background-color: gray; */
   }
   .left {
     position: fixed;
